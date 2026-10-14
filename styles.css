@@ -155,3 +155,11 @@ footer { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wr
   .button.secondary { background: rgba(255,255,255,.05); }
 }
 
+
+/* Long-form privacy information */
+.privacy-policy { max-width: 850px; overflow-wrap: anywhere; scroll-margin-top: 2rem; }
+.privacy-policy h3 { margin-top: 2.5rem; }
+.privacy-policy h4 { margin-top: 1.8rem; font-size: 1.1rem; }
+.privacy-policy p { line-height: 1.65; }
+
+@media (prefers-color-scheme: dark) { .privacy-policy a { color: #a3d7bd; } .privacy-policy a:hover { color: #c0ead9; } }
